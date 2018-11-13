@@ -15,7 +15,7 @@ Min me-sida i kursen design
 
 Detta innehåll är skrivet i markdown och du hittar innehållet i filen `content/index.md`.
 
-[FIGURE src="image/me.JPG?w=500&rotate=270&height=300" class="right" caption="Bild på mig"]
+[FIGURE src="image/me.jpg?w=500&rotate=270&height=300" class="right" caption="Bild på mig"]
 
 Hejsan. Alice heter jag och detta är min me-sida i kursen design. Denna sidan innehåller en liten presentation av mig själv.
 

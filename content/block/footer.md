@@ -1,3 +1,3 @@
-<!-- Copyright år och ditt namn samt diverse länkar som du finner relevanta. -->
+<!-- Copyrightår och ditt namn samt diverse länkar som du finner relevanta. -->
 
-Copyright 2018 Alice Forsman
+Copyright 2018 Alice Forsman.

@@ -1,0 +1,124 @@
+/**
+ * Layout style for general structure of header, navbar, main, footer
+ * and other regions of the page including route specific styles.
+ */
+
+/**
+ * Variables
+ */
+
+
+/**
+ * General layout
+ */
+.inner-wrap {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+// /* Hide submenu, leave this to kmom02 */
+// .rm-desktop ul {
+//     display: none;
+// }
+//
+// /* Hide responsive/mobile menu, leave this to kmom02 */
+// .rm-navbar-max {
+//     display: none;
+// }
+
+.my-navbar li {
+    // padding-right: 2em;
+    // display: inline;
+    // font-size: 14pt;
+}
+
+a {
+    color: #3f5f5f;
+    text-decoration: none;
+}
+
+a:hover {
+    color: white;
+    background-color: #3f5f5f;
+}
+
+.right {
+    float: right;
+}
+
+.byline {
+    border: 2px solid grey;
+    width: 20em;
+    height:5.1em;
+    text-align: left;
+    color: grey;
+    clear: both;
+}
+
+.bylinephoto {
+    float: left;
+    padding-right: 20px;
+}
+
+.footer-column {
+    width: 28%;
+    /* display: inline; */
+    float: left;
+    color: white;
+    background-color: #3f5f5f;
+    border: solid #3f5f5f 1.3em;
+}
+
+.site-logo {
+    display: none;
+}
+
+/*
+ * Main, and sidebars layout
+ */
+.inner-wrap-main {
+    // .clearfix();
+    overflow: auto;
+}
+
+.region-main {
+    width: 70%;
+    margin-left: 10%;
+    float: left;
+    overflow: auto;
+
+    &.has-sidebar {
+        margin-left: 10%;
+        width: 55%;
+    }
+    &.has-sidebar-left {
+        margin-left: 0;
+    }
+    &.has-sidebar-left.has-sidebar-right {
+        width: 55%;
+        margin-left: 5%;
+    }
+}
+
+.region-sidebar-left,
+.region-sidebar-right {
+    width: 25%;
+    float: left;
+    padding-left: 3em;
+}
+
+.region-sidebar-left.has-sidebar-right,
+.region-sidebar-right.has-sidebar-left {
+    width: 15%;
+    float: left;
+    padding-left: 2em;
+}
+
+
+.outer-wrap-breadcrumb {
+    display: none;
+}
+
+.site-footer {
+    text-align: center;
+}

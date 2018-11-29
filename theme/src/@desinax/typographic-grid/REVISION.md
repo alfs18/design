@@ -3,7 +3,7 @@ Revision History
 
 
 
-v2.0.0 (2018-11-20)
+v3.0.0 (2018-11-29)
 ------------------------
 
 * Adding horizontal and vertical grid.

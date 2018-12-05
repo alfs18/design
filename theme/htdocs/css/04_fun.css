@@ -4614,15 +4614,15 @@ a.rm-button.rm-clicked .rm-button-face-2 {
  */
 html {
   overflow-y: scroll;
-  background-color: #424242;
+  background-color: #B2FB57;
 }
 body {
   margin: 0;
   padding: 0;
   max-width: 100%;
-  color: #333;
-  background-color: #fff;
-  font: 18px/1.33333333 "sans-serif";
+  color: #0067A1;
+  background-color: #B2FB57;
+  font: 18px/1.33333333 "bungee", cursive;
 }
 img {
   max-width: 100%;
@@ -4633,7 +4633,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "serif";
+  font-family: "gamja flower", cursive;
   margin-top: 24px;
   margin-bottom: 24px;
 }
@@ -4970,8 +4970,8 @@ hr::after {
  * Header layout
  */
 .outer-wrap-header {
-  color: #333;
-  background-color: #fff;
+  color: #B2AF00;
+  background-color: #B22857;
 }
 .inner-wrap-header {
   margin-right: auto;
@@ -5013,12 +5013,12 @@ hr::after {
   text-align: center;
 }
 a {
-  color: #333;
+  color: #B2AF00;
   text-decoration: none;
 }
 a:hover {
   color: #333;
-  background-color: #fff;
+  background-color: #FF3A55;
 }
 .right {
   float: right;
@@ -5155,13 +5155,13 @@ figcaption p {
   margin-right: 0.52083333%;
 }
 .wrap-all {
-  background-color: #fff;
+  background-color: #B2FB57;
 }
 .inner-wrap-main {
-  background-color: #fff;
+  background-color: #B22857;
 }
 code {
-  background-color: #ccc;
+  background-color: #fff;
 }
 .toc {
   list-style-type: none;
@@ -5173,20 +5173,20 @@ code {
   * General layout
   */
 .my-navbar li {
-  font-family: Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", Georgia, "Times New Roman", Times, serif;
+  font-family: "black and white picture", sans-serif;
   font-size: larger;
 }
 .my-navbar ul {
-  background-color: #fff;
-  font-family: Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", Georgia, "Times New Roman", Times, serif;
+  background-color: #B22857;
+  font-family: "black and white picture", sans-serif;
   font-size: 18px;
 }
 .rm-max .rm-mobile {
-  background-color: #fff;
-  color: #333;
+  background-color: #588759;
+  color: whitesmoke;
 }
 .rm-max .rm-small .rm-button.rm-clicked {
-  color: #333;
+  color: whitesmoke;
 }
 .byline {
   border: 2px solid grey;
@@ -5203,7 +5203,7 @@ code {
   display: none;
 }
 .outer-wrap-footer {
-  background-color: #fff5ee;
+  background-color: #fff;
   color: #333;
 }
 .footer-column {
@@ -5213,12 +5213,12 @@ code {
   margin-left: 0.52083333%;
   margin-right: 0.52083333%;
   color: #333;
-  background-color: #fff5ee;
+  background-color: #fff;
 }
 .footer-column h4,
 .footer-column p,
 h1 {
-  font-family: "serif";
+  font-family: "gamja flower", cursive;
 }
 .site-footer {
   display: inline;
@@ -5309,3 +5309,72 @@ h1 {
 /**
  * My own settings, not currently in their own module.
  */
+@font-face {
+  font-family: 'Black And White Picture';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Black And White Picture Regular'), local('BlackAndWhitePicture-Regular'), url(https://fonts.gstatic.com/s/blackandwhitepicture/v5/TwMe-JAERlQd3ooUHBUXGmrmioKjjnRSFO-NqL5AZ8c.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Bungee';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Bungee'), local('Bungee-Regular'), url(https://fonts.gstatic.com/s/bungee/v3/N0bU2SZBIuF2PU_0DXRw.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Gamja Flower';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Gamja Flower Regular'), local('GamjaFlower-Regular'), url(https://fonts.gstatic.com/s/gamjaflower/v5/6NUR8FiKJg-Pa0rM6uN40Z4UzvVB.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Press Start 2P';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Press Start 2P Regular'), local('PressStart2P-Regular'), url(https://fonts.gstatic.com/s/pressstart2p/v6/e3t4euO8T-267oIAQAu6jDQyK3nVivY.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Shadows Into Light';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Shadows Into Light'), local('ShadowsIntoLight'), url(https://fonts.gstatic.com/s/shadowsintolight/v7/UqyNK9UOIntux_czAvDQx_ZcHqZXBNQzdcD8.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Libre Barcode 128';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Libre Barcode 128 Regular'), local('LibreBarcode128-Regular'), url(https://fonts.gstatic.com/s/librebarcode128/v8/cIfnMbdUsUoiW3O_hVviCwVjuLtXeK_H9Ac.ttf) format('truetype');
+}
+body {
+  background-color: #B2FB57;
+  color: #0067A1;
+}
+code {
+  border: 0;
+}
+p,
+h1 {
+  background-color: white;
+}
+.my-navbar li {
+  background-image: radial-gradient(#FF1340, #B2AF00);
+}
+.my-navbar a:hover {
+  font-family: "shadows into light", cursive;
+}
+.site-footer {
+  font-family: "black and white picture", sans-serif;
+  color: red;
+  background-color: #FFF24E;
+}
+.site-footer p {
+  background-color: #FFF24E;
+  font-family: "press start 2p", cursive;
+}
+.rm-max .rm-mobile {
+  font-family: "gamja flower", cursive;
+  font-size: x-large;
+}
+.rm-max .rm-mobile a:hover {
+  font-family: "Libre Barcode 128", cursive;
+}

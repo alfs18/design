@@ -1,7 +1,7 @@
 /*!
- * Stylesheet for design kmom03.
+ * Stylesheet for design kmom04.
  *
- * This stylesheet is for the design course and kmom03 where we use LESS.
+ * This stylesheet is for the design course and kmom04 where we use LESS.
  */
 /**
   * Import mixins
@@ -4614,15 +4614,15 @@ a.rm-button.rm-clicked .rm-button-face-2 {
  */
 html {
   overflow-y: scroll;
-  background-color: #fff;
+  background-color: #424242;
 }
 body {
   margin: 0;
   padding: 0;
   max-width: 100%;
   color: #333;
-  background-color: #3f5f5f;
-  font: 18px/1.33333333 "serif";
+  background-color: #fff;
+  font: 18px/1.33333333 "sans-serif";
 }
 img {
   max-width: 100%;
@@ -4970,7 +4970,7 @@ hr::after {
  * Header layout
  */
 .outer-wrap-header {
-  color: #2d4444;
+  color: #333;
   background-color: #fff;
 }
 .inner-wrap-header {
@@ -5013,12 +5013,12 @@ hr::after {
   text-align: center;
 }
 a {
-  color: #3f5f5f;
+  color: #333;
   text-decoration: none;
 }
 a:hover {
-  color: #fff;
-  background-color: #3f5f5f;
+  color: #333;
+  background-color: #fff;
 }
 .right {
   float: right;
@@ -5059,9 +5059,10 @@ figcaption p {
 .region-main.has-sidebar-left {
   display: inline;
   float: left;
-  width: 69.79166667%;
+  width: 65.625%;
   margin-left: 0.52083333%;
   margin-right: 0.52083333%;
+  margin-left: 4.6875%;
 }
 .region-main.has-sidebar-left.has-sidebar-right {
   display: inline;
@@ -5154,10 +5155,13 @@ figcaption p {
   margin-right: 0.52083333%;
 }
 .wrap-all {
-  background-color: #3f5f5f;
+  background-color: #fff;
 }
 .inner-wrap-main {
   background-color: #fff;
+}
+code {
+  background-color: #ccc;
 }
 .toc {
   list-style-type: none;
@@ -5174,8 +5178,15 @@ figcaption p {
 }
 .my-navbar ul {
   background-color: #fff;
-  font-family: Verdana, Geneva, sans-serif;
+  font-family: Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", Georgia, "Times New Roman", Times, serif;
   font-size: 18px;
+}
+.rm-max .rm-mobile {
+  background-color: #fff;
+  color: #333;
+}
+.rm-max .rm-small .rm-button.rm-clicked {
+  color: #333;
 }
 .byline {
   border: 2px solid grey;
@@ -5192,8 +5203,8 @@ figcaption p {
   display: none;
 }
 .outer-wrap-footer {
-  background-color: #3f5f5f;
-  color: #fff;
+  background-color: #fff5ee;
+  color: #333;
 }
 .footer-column {
   display: inline;
@@ -5201,13 +5212,13 @@ figcaption p {
   width: 32.29166667%;
   margin-left: 0.52083333%;
   margin-right: 0.52083333%;
-  color: #fff;
-  background-color: #3f5f5f;
+  color: #333;
+  background-color: #fff5ee;
 }
 .footer-column h4,
 .footer-column p,
 h1 {
-  font-family: Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", Georgia, "Times New Roman", Times, serif;
+  font-family: "serif";
 }
 .site-footer {
   display: inline;

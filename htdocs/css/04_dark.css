@@ -4614,15 +4614,15 @@ a.rm-button.rm-clicked .rm-button-face-2 {
  */
 html {
   overflow-y: scroll;
-  background-color: #424242;
+  background-color: #262f34;
 }
 body {
   margin: 0;
   padding: 0;
   max-width: 100%;
-  color: #333;
-  background-color: #fff;
-  font: 18px/1.33333333 "sans-serif";
+  color: #dbd5c5;
+  background-color: #262f34;
+  font: 18px/1.33333333 Cambria, Georgia, Times, 'Times New Roman', serif;
 }
 img {
   max-width: 100%;
@@ -4633,7 +4633,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "serif";
+  font-family: Cambria, Georgia, Times, 'Times New Roman', serif;
   margin-top: 24px;
   margin-bottom: 24px;
 }
@@ -4970,8 +4970,8 @@ hr::after {
  * Header layout
  */
 .outer-wrap-header {
-  color: #333;
-  background-color: #fff;
+  color: #dbd5c5;
+  background-color: #262f34;
 }
 .inner-wrap-header {
   margin-right: auto;
@@ -5013,12 +5013,12 @@ hr::after {
   text-align: center;
 }
 a {
-  color: #333;
+  color: #dbd5c5;
   text-decoration: none;
 }
 a:hover {
-  color: #333;
-  background-color: #fff;
+  color: #262f34;
+  background-color: #dbd5c5;
 }
 .right {
   float: right;
@@ -5155,13 +5155,13 @@ figcaption p {
   margin-right: 0.52083333%;
 }
 .wrap-all {
-  background-color: #fff;
+  background-color: #262f34;
 }
 .inner-wrap-main {
-  background-color: #fff;
+  background-color: #262f34;
 }
 code {
-  background-color: #ccc;
+  background-color: #262f34;
 }
 .toc {
   list-style-type: none;
@@ -5173,20 +5173,20 @@ code {
   * General layout
   */
 .my-navbar li {
-  font-family: Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", Georgia, "Times New Roman", Times, serif;
+  font-family: Cambria, Georgia, Times, 'Times New Roman', serif;
   font-size: larger;
 }
 .my-navbar ul {
-  background-color: #fff;
-  font-family: Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", Georgia, "Times New Roman", Times, serif;
+  background-color: #262f34;
+  font-family: Cambria, Georgia, Times, 'Times New Roman', serif;
   font-size: 18px;
 }
 .rm-max .rm-mobile {
-  background-color: #fff;
-  color: #333;
+  background-color: #262f34;
+  color: #dbd5c5;
 }
 .rm-max .rm-small .rm-button.rm-clicked {
-  color: #333;
+  color: #dbd5c5;
 }
 .byline {
   border: 2px solid grey;
@@ -5203,8 +5203,8 @@ code {
   display: none;
 }
 .outer-wrap-footer {
-  background-color: #fff5ee;
-  color: #333;
+  background-color: #262f34;
+  color: #262f34;
 }
 .footer-column {
   display: inline;
@@ -5212,13 +5212,13 @@ code {
   width: 32.29166667%;
   margin-left: 0.52083333%;
   margin-right: 0.52083333%;
-  color: #333;
-  background-color: #fff5ee;
+  color: #dbd5c5;
+  background-color: #262f34;
 }
 .footer-column h4,
 .footer-column p,
 h1 {
-  font-family: "serif";
+  font-family: Cambria, Georgia, Times, 'Times New Roman', serif;
 }
 .site-footer {
   display: inline;
@@ -5229,7 +5229,7 @@ h1 {
 }
 .site-footer p {
   margin-left: 35.9375%;
-  font-family: Frutiger, "Frutiger Linotype", Univers, Calibri, "Gill Sans", "Gill Sans MT", "Myriad Pro", Myriad, "DejaVu Sans Condensed", "Liberation Sans", "Nimbus Sans L", Tahoma, Geneva, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: Cambria, Georgia, Times, 'Times New Roman', serif;
 }
 /**
  * Layout style for general structure of header, navbar, main, footer
@@ -5309,3 +5309,11 @@ h1 {
 /**
  * My own settings, not currently in their own module.
  */
+body {
+  background-color: #262f34;
+  color: #dbd5c5;
+}
+p a {
+  text-decoration: underline;
+  color: #efefe1;
+}

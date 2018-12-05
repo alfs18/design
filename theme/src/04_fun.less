@@ -1,0 +1,66 @@
+@import "kmom04.less";
+@import url("https://fonts.googleapis.com/css?family=Black+And+White+Picture|Bungee|Gamja+Flower&amp;subset=latin-ext");
+@import url("https://fonts.googleapis.com/css?family=Press+Start+2P|Shadows+Into+Light");
+@import url("https://fonts.googleapis.com/css?family=Libre+Barcode+128");
+
+@bgColorHtml: #B2FB57;
+@bgColorBody: #B2FB57;
+@bgColorInner: #B22857;
+@bgColorFoot: #fff;
+@bgColorHover: #FF3A55;
+@bgColorMenu: #588759;
+@bgColorCode: #fff;
+@colorBody: #0067A1;
+@colorFoot: #333;
+@colorHover: #333;
+@colorHeader: #B2AF00;
+@colorMenu: whitesmoke;
+
+@fontFamilyBody: "bungee", cursive;
+@fontFamilyHeadings: "gamja flower", cursive;
+@fontFamilyList: "black and white picture", sans-serif;
+@fontFamilyH: "black and white picture", sans-serif;
+@fontFamilyFoot: @fontFamilyHelvetica;
+
+body {
+    background-color: @bgColorBody;
+    color: @colorBody;
+}
+
+
+code {
+    border: 0;
+}
+
+p,
+h1 {
+    background-color: white;
+}
+
+.my-navbar li {
+  background-image: radial-gradient(#FF1340, #B2AF00);
+}
+
+.my-navbar a:hover {
+    font-family: "shadows into light", cursive;
+}
+
+.site-footer {
+    font-family: @fontFamilyList;
+    color: red;
+    background-color: #FFF24E;
+}
+
+.site-footer p {
+    background-color: #FFF24E;
+    font-family: "press start 2p", cursive;
+}
+
+.rm-max .rm-mobile {
+    font-family: @fontFamilyHeadings;
+    font-size: x-large;
+}
+
+.rm-max .rm-mobile a:hover {
+    font-family: "Libre Barcode 128", cursive;
+}

@@ -155,10 +155,10 @@ a:hover {
   }
   .region-header-column-1,
   .region-header-column-3 {
-    width: 10%;
+    width: 5%;
   }
   .region-header-column-2 {
-    width: 80%;
+    width: 90%;
   }
 }
 @media screen and (max-width: 820px) {

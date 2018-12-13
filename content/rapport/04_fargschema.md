@@ -26,14 +26,14 @@ Youtube
 <td style="height: 50px; width: 50px; background-color: #ff0000">
 <td style="height: 50px; width: 50px; background-color: #fafafa">
 <td style="height: 50px; width: 50px; background-color: #a0a0a0">
-<td><img src="../htdocs/img/youtube.jpg">
+<td><img src="../htdocs/img/youtube.jpg" alt="youtube">
 </tr>
 </table>
 
 <table style="border-spacing: 4px; border-collapse: separate">
 SVT Play
 <tr>
-<td><img src="../htdocs/img/svtplay.jpg">
+<td><img src="../htdocs/img/svtplay.jpg" alt="svt play">
 <td style="height: 50px; width: 50px; background-color: #00C800">
 <td style="height: 50px; width: 50px; background-color: #000">
 <td style="height: 50px; width: 50px; background-color: #fff">
@@ -43,7 +43,7 @@ SVT Play
 
 Netflix
 <table style="border-spacing: 4px; border-collapse: separate">
-<img src="../htdocs/img/netflix.jpg">
+<img src="../htdocs/img/netflix.jpg" alt="netflix">
 <tr>
 <td style="height: 50px; width: 50px; background-color: #e30914">
 <td style="height: 50px; width: 50px; background-color: #141414">

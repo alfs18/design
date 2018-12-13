@@ -3,28 +3,75 @@ Revision History
 
 
 
-v3.0.0 (2018-11-29)
+v1.1.2 (2018-11-12)
 ------------------------
 
-* Adding horizontal and vertical grid.
+* typographyCodeElements was not using the setting fontFamilyCode.
 
 
 
-v2.0.0 (2018-11-20)
+v1.1.1 (2018-11-07)
 ------------------------
 
-* Done with version 2.0.0.
+* Bump version.
 
 
 
-v1.0.1 (2018-11-13)
+v1.1.0 (2018-10-26)
 ------------------------
 
-* Done with video series.
+* The grid now consists of typography-font-families.less and typography-defaults.less.
+* Documentation written and published with examples on GitHub Pages.
 
 
 
-v1.0.0 (2018-11-09)
+v1.0.6 (2018-10-15)
 ------------------------
 
-* Adding revision story and license.
+* Fix. H3 border color used color from H2.
+
+
+
+v1.0.5 (2018-10-05)
+------------------------
+
+* Update namespace to #desinax-hgrid.
+
+
+
+v1.0.4 (2018-10-05)
+------------------------
+
+* Align README for all modules.
+* Add htdocs/ for test using html and generated css.
+
+
+
+v1.0.3 (2018-10-05)
+------------------------
+
+* Remove package-lock.json.
+* Update Makefile with other modules.
+
+
+
+v1.0.2 (2018-04-15)
+------------------------
+
+* Fix code validation.
+
+
+
+v1.0.1 (2018-04-15)
+------------------------
+
+* Add build through Makefile, travis and circleci.
+
+
+
+v1.0.0 (2017-11-03)
+------------------------
+
+* Moved to desinax organisation from canax.
+* Prepare to test and integrate ci chain.
+* Make module installable through npm.

@@ -4369,12 +4369,12 @@ template {
 }
 a.rm-button {
   display: inline-block;
-  color: #fff;
+  color: inherit;
   background-color: transparent;
   outline: none;
 }
 a.rm-button:active {
-  color: #fff;
+  color: inherit;
   background-color: transparent;
 }
 a.rm-button .rm-button-face-1 {
@@ -4387,7 +4387,7 @@ a.rm-button .rm-button-face-2 {
   transition: color 0.1s ease;
 }
 a.rm-button.rm-clicked {
-  color: #fff;
+  color: #9FB129;
   background-color: transparent;
 }
 a.rm-button.rm-clicked .rm-button-face-1 {
@@ -4506,7 +4506,7 @@ a.rm-button.rm-clicked .rm-button-face-2 {
   color: inherit;
 }
 .rm-max .rm-small .rm-button.rm-clicked {
-  color: #fff;
+  color: #9FB129;
   position: fixed;
   top: 16px;
   right: 24px;
@@ -4523,7 +4523,7 @@ a.rm-button.rm-clicked .rm-button-face-2 {
   height: 500px;
   overflow-y: auto;
   padding-top: 72px;
-  background-color: #578484;
+  background-color: #131313;
   /* Color when menu item is clicked */
   /* Button for submenu */
   /* Style for submenu */
@@ -5242,10 +5242,10 @@ h1 {
   }
   .region-header-column-1,
   .region-header-column-3 {
-    width: 10%;
+    width: 5%;
   }
   .region-header-column-2 {
-    width: 80%;
+    width: 90%;
   }
 }
 @media screen and (max-width: 820px) {

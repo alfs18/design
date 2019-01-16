@@ -26,7 +26,7 @@
   font-family: 'Marck Script';
   font-style: normal;
   font-weight: 400;
-  src: local('Marck Script'), local('MarckScript-Regular'), url(https://fonts.gstatic.com/s/marckscript/v8/nwpTtK2oNgBA3Or78gapdwuyyCg6.ttf) format('truetype');
+  src: local('Marck Script'), local('MarckScript-Regular'), url(https://fonts.gstatic.com/s/marckscript/v9/nwpTtK2oNgBA3Or78gapdwuyyCg6.ttf) format('truetype');
 }
 /**
  * Normalize and reset the style.
@@ -5500,7 +5500,7 @@ video {
   font-family: 'Pinyon Script';
   font-style: normal;
   font-weight: 400;
-  src: local('Pinyon Script'), local('PinyonScript'), url(https://fonts.gstatic.com/s/pinyonscript/v7/6xKpdSJbL9-e9LuoeQiDRQR8WOXaPw.ttf) format('truetype');
+  src: local('Pinyon Script'), local('PinyonScript'), url(https://fonts.gstatic.com/s/pinyonscript/v8/6xKpdSJbL9-e9LuoeQiDRQR8WOXaPw.ttf) format('truetype');
 }
 html {
   overflow-x: hidden;

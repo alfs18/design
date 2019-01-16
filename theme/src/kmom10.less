@@ -1,0 +1,157 @@
+/*!
+ * Stylesheet for design kmom10.
+ *
+ * This stylesheet is for the design course and kmom10 where we use LESS.
+ */
+
+ /**
+  * Import mixins
+  */
+ @import "mixin/clearfix.less";
+
+ .clearfix() {
+    #design-mixin.clearfix();
+ }
+
+
+
+/**
+ * Normalize and reset the style.
+ */
+@import "normalize.css/normalize.less";
+
+
+
+/**
+ * Font Awesome.
+ */
+@import "@fortawesome/fontawesome-free/less/fontawesome.less";
+@import "@fortawesome/fontawesome-free/less/solid.less";
+@import "@fortawesome/fontawesome-free/less/brands.less";
+
+
+
+/**
+ * Internal self contained modules, save in directory module/.
+ */
+@import "module/kmom01.less";
+@import "module/stylechooser.less";  // Just an example module
+
+
+
+/**
+* A responsive menu.
+*/
+@import "@desinax/responsive-menu/less/responsive-menu.less";
+//@import "@desinax/responsive-menu/less/media-queries.less";
+
+
+
+/**
+ * Import the typographic grid.
+ */
+@import "@desinax/typographic-grid/less/typography-font-families.less";
+@import "@desinax/typographic-grid/less/typography-defaults.less";
+
+
+// Show the grid
+.hgrid .inner-wrap {
+    @gridImage: "../img/magic-number-@{magicNumber}.png";
+    #desinax-hgrid.showGrid(@gridImage);
+}
+
+
+
+@import "@desinax/figure/less/test_style.less";
+
+figure.figure {
+    #desinax-figure.figure();
+}
+
+
+/**
+ * Base style to affect HTML elements on a general scale.
+ */
+@import "base/base.less";
+
+
+
+/*
+ * Import the vertical grid.
+ */
+@import "@desinax/vertical-grid/less/grid.less";
+@import "layout/layout_kmom10.less";
+
+
+/**
+ * Layout style for general structure of header, navbar, main, footer
+ * and other regions of the page including route specific styles.
+ */
+// @import "layout/layout.less";
+// @import "layout/layout_kmom02.less";
+@import "layout/responsive2.less";
+@import "layout/regions.less";     // To add style for ?regions
+
+
+
+
+/**
+ * My own settings, not currently in their own module.
+ */
+
+ @bgColorHtml: #424242;
+ @bgColorBody: #fff5ee;
+ @bgColorInner: rgba(0, 0, 0, 0.4);
+ @bgColorFoot: rgba(0, 0, 0, 0.3);
+ @bgColorMenu: #fff5ee;
+ @bgColorCode: rgba(0, 0, 0, 0.2);
+ @bgColorHover: #897569;
+ @colorBody: #fff5ee;
+ @colorFoot: #fff5ee;
+ @colorHover: #fff5ee;
+ @colorHeader: #897569;
+ @colorMenu: #fff5ee;
+
+ @fontFamilyBody: @fontFamilyTimes;
+ @fontFamilyHeadings: @fontFamilyTimes;
+ @fontFamilyList: @fontFamilyTimes;
+ @fontFamilyH: @fontFamilyTimes;
+ @fontFamilyFoot: @fontFamilyTimes;
+
+
+// body {
+//     background-color: @bgColorBody;
+//     color: @colorHeader;
+// }
+
+code {
+    border: 0;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.inner-wrap-main {
+    min-height: 24em;
+}
+
+p a {
+    text-decoration: underline;
+}
+
+h1,
+h4 {
+    border-bottom: 1px solid #fff5ee;
+}
+
+.rm-max .rm-mobile {
+    color: @colorHeader;
+}
+
+.site-logo-text {
+    display: none;
+}
+
+
+
+// Magic number and base fontsize
+@magicNumber:  24px;  // 22px
+@fontSizeBody: 18px;
